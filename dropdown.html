@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Drop down</title>
+    <style>
+        #items a{
+            text-decoration: none;
+            background-color: aqua;
+            display: block;
+        }
+        #dd{
+            display: inline-block;
+        }
+        #dd #items{
+            display: none;
+        }
+        #dd:hover #items{
+            display: block;
+            cursor: pointer;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="dd">
+        <button>Details</button>
+        <div id="items">
+        <a href="#one">Menu 1</a>
+        <a href="#two">Menu 2</a>
+        <a href="#three">Menu 3</a>
+        <a href="#four">Menu 4</a>
+        </div>
+    </div>
+</body>
+</html>

@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta-name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Keyframe</title>
+    <style type="text/css">
+        img{
+            position: relative;
+            animation-name: rohith;
+            animation-duration: 1s;
+            animation-iteration-count: infinite;
+            animation-direction: normal;
+        }
+        @keyframes rohith{
+            /* from{
+                left: 0px;
+                top: 0px;
+            }
+            to{
+                left: 1000px;
+                top: 400px;
+            } */
+            0% {
+                left: 0px;
+                top: 0px;
+            }
+            25% {
+                left: 400px;
+                top: 0px;
+            }
+            50% {
+                left: 400px;
+                top: 300px;
+            }
+            75% {
+                left: 0px;
+                top: 300px;
+            }
+            100% {
+                left: 0px;
+                top: 0px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <img src="./Images/OIP (1).jpg" width="200">
+</body>
+</html>

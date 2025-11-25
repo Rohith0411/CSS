@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex</title>
+    <style>
+        div{
+            display: flex;
+        }
+        div img{
+            height: 200px;
+        }
+
+        .container{
+            display: flex;
+            flex-direction: row; 
+            justify-content: center;
+            justify-content: space-around;
+            
+        }
+        #ch1{
+            background-color: aqua;
+            height: 200px;
+            align-items: center;
+            
+        }
+        #ch2{
+             background-color: rgb(82, 215, 37);
+             align-items: center;
+        }
+        #ch3{
+             background-color: rgb(169, 46, 126);
+             justify-content: center;
+             align-content: center;
+             width: 300px;
+        }
+        #ch4{
+             background-color: rgb(185, 57, 57);
+        }
+        #ch5{
+             background-color: rgb(234, 231, 94);
+        }
+        
+    </style>
+</head>
+<body>
+    <h1>Flex</h1>
+    <div>
+        <img src="./Images/OIP (1).jpg">
+        <img src="./Images/OIP (2).jpg">
+        <img src="./Images/logo.jpg">
+        <img src="./Images/OIP (1).jpg">
+    </div>
+    <hr>
+    <h1>Flex-container</h1>
+    <div class="container">
+        <div id="ch1">HTML</div>
+        <div id="ch2">CSS</div>
+        <div id="ch3">REACT</div>
+        <div id="ch4">JAVA</div>
+        <div id="ch5">PYTHON</div>
+    </div>
+</body>
+</html>
